@@ -1,0 +1,139 @@
+{
+  "stop": [
+    {
+      "stop_id": "70015",
+      "stop_name": "Back Bay - Inbound",
+      "parent_station": "place-bbsta",
+      "parent_station_name": "Back Bay",
+      "stop_lat": "42.34735",
+      "stop_lon": "-71.075727",
+      "distance": "0.0535630360245705"
+    },
+    {
+      "stop_id": "11384",
+      "stop_name": "Dartmouth St @ Back Bay Sta",
+      "parent_station": "place-bbsta",
+      "parent_station_name": "Back Bay",
+      "stop_lat": "42.34735",
+      "stop_lon": "-71.075727",
+      "distance": "0.0535630360245705"
+    },
+    {
+      "stop_id": "176",
+      "stop_name": "Dartmouth St opp Back Bay Sta",
+      "parent_station": "place-bbsta",
+      "parent_station_name": "Back Bay",
+      "stop_lat": "42.34735",
+      "stop_lon": "-71.075727",
+      "distance": "0.0535630360245705"
+    },
+    {
+      "stop_id": "place-bbsta",
+      "stop_name": "Back Bay",
+      "parent_station": "",
+      "parent_station_name": "",
+      "stop_lat": "42.34735",
+      "stop_lon": "-71.075727",
+      "distance": "0.0535630360245705"
+    },
+    {
+      "stop_id": "23391",
+      "stop_name": "Back Bay Station",
+      "parent_station": "place-bbsta",
+      "parent_station_name": "Back Bay",
+      "stop_lat": "42.34735",
+      "stop_lon": "-71.075727",
+      "distance": "0.0535630360245705"
+    },
+    {
+      "stop_id": "70014",
+      "stop_name": "Back Bay - Outbound",
+      "parent_station": "place-bbsta",
+      "parent_station_name": "Back Bay",
+      "stop_lat": "42.34735",
+      "stop_lon": "-71.075727",
+      "distance": "0.0535630360245705"
+    },
+    {
+      "stop_id": "Back Bay",
+      "stop_name": "Back Bay",
+      "parent_station": "place-bbsta",
+      "parent_station_name": "Back Bay",
+      "stop_lat": "42.347487",
+      "stop_lon": "-71.075399",
+      "distance": "0.072804681956768"
+    },
+    {
+      "stop_id": "71855",
+      "stop_name": "Stuart St @ Dartmouth St",
+      "parent_station": "",
+      "parent_station_name": "",
+      "stop_lat": "42.348245",
+      "stop_lon": "-71.076218",
+      "distance": "0.0910642221570015"
+    },
+    {
+      "stop_id": "1395",
+      "stop_name": "Dartmouth St @ Appleton St",
+      "parent_station": "",
+      "parent_station_name": "",
+      "stop_lat": "42.345156",
+      "stop_lon": "-71.074969",
+      "distance": "0.150986462831497"
+    },
+    {
+      "stop_id": "1384",
+      "stop_name": "Dartmouth St @ Appleton St",
+      "parent_station": "",
+      "parent_station_name": "",
+      "stop_lat": "42.345018",
+      "stop_lon": "-71.074771",
+      "distance": "0.164772421121597"
+    },
+    {
+      "stop_id": "178",
+      "stop_name": "Saint James Ave @ Dartmouth St",
+      "parent_station": "",
+      "parent_station_name": "",
+      "stop_lat": "42.349373",
+      "stop_lon": "-71.076911",
+      "distance": "0.167072579264641"
+    },
+    {
+      "stop_id": "179",
+      "stop_name": "Ring Rd @ Huntington Ave",
+      "parent_station": "",
+      "parent_station_name": "",
+      "stop_lat": "42.347595",
+      "stop_lon": "-71.079984",
+      "distance": "0.176442056894302"
+    },
+    {
+      "stop_id": "70154",
+      "stop_name": "Copley - Inbound",
+      "parent_station": "place-coecl",
+      "parent_station_name": "Copley",
+      "stop_lat": "42.349974",
+      "stop_lon": "-71.077447",
+      "distance": "0.212157785892487"
+    },
+    {
+      "stop_id": "175",
+      "stop_name": "Boylston St @ Dartmouth St",
+      "parent_station": "place-coecl",
+      "parent_station_name": "Copley",
+      "stop_lat": "42.349974",
+      "stop_lon": "-71.077447",
+      "distance": "0.212157785892487"
+    },
+    {
+      "stop_id": "place-coecl",
+      "stop_name": "Copley",
+      "parent_station": "",
+      "parent_station_name": "",
+      "stop_lat": "42.349974",
+      "stop_lon": "-71.077447",
+      "distance": "0.212157785892487"
+    }
+  ]
+}
