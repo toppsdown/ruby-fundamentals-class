@@ -108,7 +108,7 @@ end
 
 #
 
-def method_with_return_value
+def method_with_return_value_123
   puts 'hello'
 
   123
