@@ -29,18 +29,24 @@
 
 
 # Exercise
-# write a comment in the console and see that it doesn't do anything
+#
+# Console: write a comment and see that it doesn't do anything
 
 
 
 
-# X) Commands: Instructions for a computer
+
+
+
+
+# X) Commands: Instructing the computer
 1 + 1  # Code that adds two numbers
 
 
 # Exercise
 #
-# Do some addition in the console
+# Console: Do some addition
+# File: Do some addition and run the file
 
 
 
@@ -53,9 +59,8 @@
 
 # X) Strings: Talking to the user
 #
-# human text (english or other languages) is treated differently
-# than commands and comments.  To tell the computer about human language
-# we use Strings of characters
+# Human language is treated differently than commands and comments.
+# To tell the computer about human language we use Strings of characters
 
 'hello' # this is a string with single quotes
 "goodbye" # this is a string with double quotes
@@ -63,11 +68,11 @@
 
 # Exercise:
 #
-# Use the Repl console to write some strings with both quote types
+# Console: write some strings with both quote types
 
 # Write your name
 # Write your city name
-# What happens if you want to write a contraction?: don't, won't, can't
+# How do we write a contraction?: don't, won't, can't
 
 
 # Answer
@@ -84,8 +89,12 @@
 
 
 
-# X) Returning values to the computer
+# X) Returning: Passing values back to the computer
 #
+# When code executes, it returns a value that the computer can use.
+# These return values are not visible to the user
+#
+# Example:
 1 + 1 # This code returns the value 2, but does not print anything to the user
 
 # Note: In the console, the return value will be shown as:
@@ -103,10 +112,33 @@
 
 
 
-# X) Printing: Showing values to user
+
+
+
+
+
+
+# X) Printing Output: Showing values to user
 #
-print 10 * 10 # This will print 100 to the console
+# If we want to show information to the user, we print it to the console
+# This is also called "Output"
+#
+# Example:
 puts 1 + 1 # This will print 2 to the console and then add a new line
+print 'Hello' # This will print 'Hello' to the console
+
+# NOTE: The print method is currently broken in Repl.it and does not support printing numbers
+
+
+# Exercise (Console)
+#
+# Type these in the console, and compare the difference
+1 + 1
+puts 1 + 1
+
+
+
+
 
 
 
@@ -120,22 +152,27 @@ puts 1 + 1 # This will print 2 to the console and then add a new line
 # `print` and `puts` are both "Methods"
 # Methods are actions that we can tell the computer to do
 #
-# There are lots of built in methods, and we'll learn to create our own later
+# There are lots of built in methods and we'll learn to create our own later
 
-# Exercise
+# Exercise: (In file side and click run)
 #
 # A) Use the puts method to show the number 1 thousand to the user
 #
-# B) Use the print method twice, once to show the number 111, and once to show the number 222
+# B) Use the puts method to show your name to the user
 #
-# C) Use the puts method to show your name to the user
+# C) Use the puts method to say hello to you (your name)
 #
-# D) Use the puts method to say hello to you (your name)
+# D) Use the print method twice, once to show the word "Hello", and once to show your name
+#    What do you notice about what's printed?
 
 
 
 # Answer
-# puts "Hello Ethan"
+# puts 1000
+# puts 'Bobby'
+# puts 'Hello Bobby'
+# print 'Hello'
+# print 'Bobby'
 # /Answer
 
 
@@ -150,6 +187,11 @@ puts 1 + 1 # This will print 2 to the console and then add a new line
 #
 # We use variables to save values.  That way we can use those values later
 # in our code
+#
+# Metaphor:
+# A variable is like a name.  We name people so that we can refer to them without
+# them being present.  Similarly in code, we say that a variable "references" a value
+#
 #
 # To create a variable we need:
 #
