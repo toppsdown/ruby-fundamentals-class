@@ -19,7 +19,7 @@ This repo contains all code for the Startup Institute Ruby Fundamentals Curricul
 
 
 
-# Guide to making changes
+# How to make changes
 
 ## Philosophy
 ### Less is More
