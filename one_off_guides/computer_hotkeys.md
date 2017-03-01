@@ -2,6 +2,8 @@
 
 
 ## Emacs Hotkeys
+THESE ARE AVAILABLE NEARLY EVERYWHERE.  USE THEM!  
+  
 | Command | Action |
 | --- | --- |
 | `ctrl-a` | Go to beginning of line |
@@ -27,7 +29,9 @@ All emacs commands work in all programs in mac
 
 
 ## Windows
-Sorry, dunno these ones
+Most of the mac/sublime hotkeys work on windows if you use `ctrl` instead of `cmd`  
+Unfortunately, emacs commands do not
+  
 TODO: Add windows hotkeys
 
 
@@ -36,10 +40,10 @@ https://gist.github.com/eteanga/1736542
   
 | Command | Action |
 | --- | --- |
-| `ctrl-p` | Quick open files |
-| `ctrl-r` | Quick open methods and classes |
+| `cmd-p` | Quick open files |
+| `cmd-r` | Quick open methods and classes |
 | `shift-cmd-p` | Sublime command promp |
-| `ctrl-kb` | Open/Close sidebar |
+| `cmd-kb` | Open/Close sidebar |
 
 
 ## Repl.it
