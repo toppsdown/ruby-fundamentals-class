@@ -7,14 +7,14 @@ This repo contains all code for the Startup Institute Ruby Fundamentals Curricul
 - [Guides](one_off_guides)
   - Repl.it
   - [Get faster with Hotkeys](one_off_guides/computer_hotkeys.md)
-  - Ruby Syntax Guide
-  - Setting up your local environment
-  - How to use PRY Debugger
-- Example code
-  - Open and read a file
-  - Parse a CSV file
-  - Parse a JSON file
-  - Connect to a JSON API
+  - [Ruby Syntax List](one_off_guides/syntax_guide.md)
+  - [Setting up your local environment](one_off_guides/local_environment_setup.md)
+  - [How to use PRY Debugger](one_off_guides/pry_usage.md)
+- [Example code](example_code_library)
+  - [Open and read a file](example_code_library/open_file)
+  - [Parse a CSV file](example_code_library/parse_csv)
+  - [Parse a JSON file](example_code_library/parse_json)
+  - [Connect to a JSON API](example_code_library/api_connection)
 
 
 
