@@ -4,17 +4,9 @@ You can put binding.pry anywhere in your code, and when the program hits
 that line, it will drop into a pry console
 
 
-Example:
-
-- Run the game_with_debug_option
-- 3 times, enter a word and hit enter
-- type 'debug' in the prompt. This will open the pry console: [1] pry(main)>
-- type some_variable to check what value is in that variable
-- type recorded_user_input to see what's in the array of saved values
-- type some_other_method_you_have_access_to to run the method
-- type recorded_user_input.join(',') to see what the join method does
-- type "You entered: #{recorded_user_input.join(',')}" (including quotes)
-   to see how string interplation works
+## Example:
+- Make sure PRY is installed:  open a terminal and type `pry`
+- Copy the code below to a file in sublime
 
 ```ruby
 def some_other_method_you_have_access_to
@@ -42,7 +34,21 @@ def game_with_debug_option
     recorded_user_input << user_input
   end
 end
+
+# game_with_debug_option   # Comment this out to run the game
 ```
+
+- Run the `game_with_debug_option`
+- 3 times, enter a word and hit enter
+- type 'debug' in the prompt. This will open the pry console: `[1] pry(main)>`
+- type `some_variable` to check what value is in that variable
+- type `recorded_user_input` to see what's in the array of saved values
+- type `some_other_method_you_have_access_to` to run the method
+- type `recorded_user_input.join(',')` to see what the join method does
+- type `"You entered: #{recorded_user_input.join(',')}"` (including quotes)
+   to see how string interplation works
+
+
 
 
 ## Exercise:  Add debugging to your games
