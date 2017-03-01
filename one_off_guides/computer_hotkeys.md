@@ -24,7 +24,7 @@ All emacs commands work in all programs in mac
 | Command | Action |
 | --- | --- |
 | `cmd-tab` | Switch programs |
-| `cmd-\`` | Switch Windows within program |
+| `` cmd-` `` | Switch Windows within program |
 | `shift-cmd-]` | Switch Tabs in window |
 
 
