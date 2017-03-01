@@ -6,7 +6,7 @@ This repo contains all code for the Startup Institute Ruby Fundamentals Curricul
 - [Weekly Scripts for students](weekly_scripts)
 - [Guides](one_off_guides)
   - Repl.it
-  - Get faster with Hotkeys
+  - [Get faster with Hotkeys](one_off_guides/computer_hotkeys.md)
   - Ruby Syntax Guide
   - Setting up your local environment
   - How to use PRY Debugger
