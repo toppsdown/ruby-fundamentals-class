@@ -46,6 +46,10 @@ vending_machine = {
 # /Answer
 
 
+
+
+
+
 # X) Hashes: Looking up a value
 #
 # To access values in the hash, we use it's key:
@@ -62,6 +66,9 @@ vending_machine['D8'] # => returns "Reese's Pieces"
 # Answer
 vending_machine['D0']
 # /Answer
+
+
+
 
 
 # X) Hashes: Iterating over keys and values
@@ -178,6 +185,9 @@ end
 
 
 
+
+
+
 # X) Nested hashes: The russian doll of code
 #
 # Hashes can use any data as the key or the value
@@ -239,6 +249,8 @@ nested_vending_machine_answer = {
   }
 }
 # /Answer
+
+
 
 
 
@@ -353,6 +365,9 @@ end
 # /Answer
 
 
+
+
+
 # X) Hashes: Making a person
 #
 # We can use hashes to represent more complicated real life
@@ -390,6 +405,9 @@ me = {
 
 
 
+
+
+
 # X) Hashes: editing a hash after it's creation
 #
 # Hashes can be changed after creation by using the key and =
@@ -420,9 +438,16 @@ me['hair_color'] = 'Brown'
 
 
 
-# X)
-
-# Now let's make a guess who game
+# X) Guess Who:  What's their eye color?
+#
+# The game guess who goes as follows:
+#   1) Each player picks a person at the start of the game
+#   2) Each turn, player 1 guesses an attribute
+#   3) Player 2 responds whether their pick has that attribute
+#   4) Player 1 then eliminates everyone that doesn't match
+#
+#
+# We'll write a simplified version where the only attribute is eye color
 
 noah = {
   'name' => 'Noah',

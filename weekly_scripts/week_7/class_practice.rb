@@ -1,11 +1,3 @@
-# Ignore this, just for testing purposes
-def check_test(actual, expect)
-  status = expect == actual ? 'Pass' : 'Fail'
-  puts "#{status}, Expected: #{expect}, Actual: #{actual}"
-end
-
-require 'pry'
-
 # Classes
 
 # Terminology:
@@ -133,10 +125,10 @@ end
 
 # Tests
 bobby = Person.new('Bobby')
-check_test(bobby.name, 'Bobby')
+bobby.name # Should return 'Bobby'
 
 sam = Person.new('Sam')
-check_test(sam.name, 'Sam')
+sam.name # Should return 'Sam'
 
 
 
@@ -146,7 +138,6 @@ check_test(sam.name, 'Sam')
 
 # To test, try to use the print_name method on person
 #
-# binding.pry
 # Person.new('Timmy').print_name
 
 
@@ -196,11 +187,11 @@ end
 # Tests
 # Set first name
 name_changing_person = Person.new('Bobby')
-check_test(name_changing_person.name, 'Bobby')
+name_changing_person.name # Should return 'Bobby'
 
 # Change name of person
 name_changing_person.name = 'Sam'
-check_test(name_changing_person.name, 'Sam')
+name_changing_person.name # Should now return 'Sam'
 
 
 
@@ -635,9 +626,6 @@ end
 # Implement the complete model of a store with all the appropriate methods
 
 
-
-binding.pry
-puts 'done'
 
 
 
