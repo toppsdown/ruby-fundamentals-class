@@ -2,14 +2,14 @@
 This repo contains all code for the Startup Institute Ruby Fundamentals Curriculum  
 Please refer to the full curriculum for more details
 
-### Full Curriculum
+### Links to Curriculum
 - [Curriculum Overview](https://docs.google.com/document/d/1lkomE-14r6Vssc0rzBSXODYe5Uof_k4tdJvbrkzc3k0)
 - [Notes for Teachers](https://docs.google.com/document/d/1CsQveSD9VUVKWvaoRwp4MpFYN-Dimc3UUA6dcV3ihck)
 - Weekly Guides
   - [Weekly Guide for Students](https://docs.google.com/document/d/1g1ESo8xczgZJnxBF7ixLMh4bHCob6tpnwKomRktUOEU)
   - [Weekly Guide for Teachers](https://docs.google.com/document/d/1EF5YKMogt9p0CiBYY8e5vFVBvEAxP0UWpMrtZd_M2Ho)
 
-# Contents
+# Repo Contents
 - [Weekly Scripts for students](weekly_scripts)
 - [Guides](one_off_guides)
   - Repl.it
