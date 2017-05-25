@@ -524,11 +524,28 @@ end
 
 
 
-# Exercise 11:
+# Exercise 11: Guess Who
 
+# Guess Who is a game of mystery
+#
+# Player 1 picks a character with specific visual attributes
+#  - Does the character wear glasses?
+#  - What color is the character's hair?
+#  - etc...
+# Player 2 asks Player 1 if their character has a specific attribute
+#  - Does your character wear glasses?
+#  - Does your character have brown hair?
+#
+# Player 2 then eliminates the characters that don't match the answer
+
+
+# Instructions
+#
+# We're going to make this a game, where the computer is Player 1, and you are Player 2
+#
 # Write a game that:
 # - chooses a random person: people.sample
-
+#
 # Loop
 # - prints the names of all people in the people list and their eye color
 # - asks the user to guess eye color
@@ -539,7 +556,6 @@ end
 # - else
 #   => remove that person from the list
 # repeat
-
 
 
 def game_loop

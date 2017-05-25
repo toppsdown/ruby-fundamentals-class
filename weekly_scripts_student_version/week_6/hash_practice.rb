@@ -38,6 +38,10 @@ vending_machine = {
 
 
 
+
+
+
+
 # X) Hashes: Looking up a value
 #
 # To access values in the hash, we use it's key:
@@ -50,6 +54,9 @@ vending_machine['D8'] # => returns "Reese's Pieces"
 # Exercise:
 #
 # Use ruby to get me a smores pop tarts.  What key do I need?
+
+
+
 
 
 
@@ -152,6 +159,9 @@ sum_prices(prices) # should return 4
 
 
 
+
+
+
 # X) Nested hashes: The russian doll of code
 #
 # Hashes can use any data as the key or the value
@@ -188,6 +198,8 @@ nested_vending_machine_example = {
 nested_vending_machine_answer = {
   # your key/values here
 }
+
+
 
 
 
@@ -291,6 +303,9 @@ sum_prices(vending_machine) # Should return $5.00
 
 
 
+
+
+
 # X) Hashes: Making a person
 #
 # We can use hashes to represent more complicated real life
@@ -328,6 +343,9 @@ me = {
 
 
 
+
+
+
 # X) Hashes: editing a hash after it's creation
 #
 # Hashes can be changed after creation by using the key and =
@@ -355,9 +373,16 @@ maura['eye_color'] = 'green' # overwrites an existing key
 
 
 
-# X)
-
-# Now let's make a guess who game
+# X) Guess Who:  What's their eye color?
+#
+# The game guess who goes as follows:
+#   1) Each player picks a person at the start of the game
+#   2) Each turn, player 1 guesses an attribute
+#   3) Player 2 responds whether their pick has that attribute
+#   4) Player 1 then eliminates everyone that doesn't match
+#
+#
+# We'll write a simplified version where the only attribute is eye color
 
 noah = {
   'name' => 'Noah',
@@ -418,11 +443,28 @@ check_test(reject_color(people, 'blue'), expectation)
 
 
 
-# Exercise 11:
+# Exercise 11: Guess Who
 
+# Guess Who is a game of mystery
+#
+# Player 1 picks a character with specific visual attributes
+#  - Does the character wear glasses?
+#  - What color is the character's hair?
+#  - etc...
+# Player 2 asks Player 1 if their character has a specific attribute
+#  - Does your character wear glasses?
+#  - Does your character have brown hair?
+#
+# Player 2 then eliminates the characters that don't match the answer
+
+
+# Instructions
+#
+# We're going to make this a game, where the computer is Player 1, and you are Player 2
+#
 # Write a game that:
 # - chooses a random person: people.sample
-
+#
 # Loop
 # - prints the names of all people in the people list and their eye color
 # - asks the user to guess eye color
@@ -433,7 +475,6 @@ check_test(reject_color(people, 'blue'), expectation)
 # - else
 #   => remove that person from the list
 # repeat
-
 
 
 def game_loop
