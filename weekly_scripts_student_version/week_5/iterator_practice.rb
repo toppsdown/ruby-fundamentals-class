@@ -56,10 +56,10 @@ end
 
 
 
-# X) Memoizer pattern: keep a running tally
+# X) Accumulator pattern: keep a running tally
 #
 # When we do math in our heads, we keep a running tally of
-# the value.  This is called "memoizing"
+# the value.  This is called "accumulating"
 
 # Example:
 # 2 + 19 + 25 + 4 + 7
@@ -74,7 +74,7 @@ end
 
 
 
-# X) Memoize with arrays
+# X) Accumulate with arrays
 #
 # Exercise: Double all numbers
 #
