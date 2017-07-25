@@ -1,5 +1,14 @@
 # Basics of ruby
 
+# How to use this file:
+#
+# For each section, write your code in this file, then run it
+# Once you are done with a section, comment the code out by
+# highlighting it and pressing command-/ (mac), ctrl-/ (Windows)
+
+
+
+
 
 
 # Notes about computers:
@@ -264,9 +273,11 @@ gets
 #
 # Example
 #
-# my_input = gets
-# type 'hello'
-# my_input # => equal to 'hello\n'
+# In console: type:
+#
+# > my_input = gets  # This waits for user input
+# # You type 'hello' and the enter button as the input
+# > my_input # => equal to 'hello\n'  # This will use the variable created above
 #
 # to remove the newline, we need to use 'chomp'
 gets.chomp
@@ -276,16 +287,16 @@ gets.chomp
 
 # Exercise
 #
-# 1) use puts method to tell the user to input something
+# 1) use puts method to ask the user "What is your name?"
 # 2) use a variable and the gets method to save the user input
-# 3) use puts method to output what the user inputted
+# 3) use puts method to output the user's name
 
 
 
 # Answer
-# puts "Type something!"
+# puts "What is your name?"
 # user_input = gets.chomp
-# puts user_input
+# puts "Hello " + user_input
 # /Answer
 
 
@@ -315,6 +326,9 @@ gets.chomp
 #  1) asks user for input
 #  2) gets input and saves it to a variable
 #  3) prints the input back to the user
+#
+# Hint: This is the same as the previous exercise, but
+#       asks repeatedly instead of just once
 
 
 # When you're done:

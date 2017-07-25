@@ -96,7 +96,7 @@ puts double_array([2, 5, 10]).to_s # Should return [ 4, 10, 20 ]
 
 
 
-# X) Memoize: Filtering values from an array
+# X) Accumulate: Filtering values from an array
 #
 # Exercise: Select all even numbers
 #

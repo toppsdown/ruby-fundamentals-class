@@ -130,7 +130,7 @@ end
 
 
 
-# X) Memoize with arrays
+# X) Accumulate with arrays
 #
 # Exercise: Double all numbers
 #
@@ -162,7 +162,7 @@ end
 
 
 
-# X) Memoize: Filtering values from an array
+# X) Accumulate: Filtering values from an array
 #
 # Exercise: Select all even numbers
 #
