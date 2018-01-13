@@ -82,7 +82,7 @@ end
 # 46 + 4 = 50
 # 50 + 7 = 57
 #
-# Answer is 57
+# Total is 57
 
 # In code we can do something similar
 #

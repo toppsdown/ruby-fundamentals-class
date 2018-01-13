@@ -70,6 +70,40 @@ end
 # 46 + 4 = 50
 # 50 + 7 = 57
 #
+# Total is 57
+
+# In code we can do something similar
+#
+# Example:
+# 2 + 19 + 25 + 4 + 7
+#
+# sum = 0
+# sum = sum + 2  # sum equals 2
+# sum = sum + 19 # => sum equals 21
+# sum = sum + 25 # => sum equals 46
+# sum = sum + 4  # => sum equals 50
+# sum = sum + 7  # => sum equals 57
+#
+# sum now equals 57
+
+
+
+# Exercise: Sum the numbers
+#
+# Write a method that:
+# 1) takes an array of numbers
+# 2) creates a variable for the sum
+# 3) Iterates over the list of numbers
+# 4) adds each number to the sum
+# 4) returns the sum
+
+def sum_array(array)
+  # Your code here
+end
+
+# Test
+puts sum_array([10, 20, 30]).to_s # should return 60
+
 
 
 
