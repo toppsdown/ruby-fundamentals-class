@@ -128,9 +128,10 @@
 # If we want to show information to the user, we print it to the console
 # This is also called "Output"
 #
-# Example:
-puts 1 + 1 # This will print 2 to the console and then add a new line
-print 'Hello' # This will print 'Hello' to the console
+# Example: Uncomment before exercising
+#
+#puts 1 + 1 # This will print 2 to the console and then add a new line
+#print 'Hello' # This will print 'Hello' to the console
 
 # NOTE: The print method is currently broken in Repl.it and does not support printing numbers
 
@@ -138,8 +139,8 @@ print 'Hello' # This will print 'Hello' to the console
 # Exercise (Console)
 #
 # Type these in the console, and compare the difference
-1 + 1
-puts 1 + 1
+# 1 + 1
+# puts 1 + 1
 
 
 
@@ -159,7 +160,7 @@ puts 1 + 1
 #
 # There are lots of built in methods and we'll learn to create our own later
 
-# Exercise: (In file side and click run)
+# Exercise: (In file side, do exercises, and click run)
 #
 # A) Use the puts method to show the number 1 thousand to the user
 #
@@ -216,7 +217,7 @@ my_variable = "This is text saved to a variable"
 # MY_variable <= not a valid variable
 
 
-# Exercise:
+# Exercise: (Write these in the file, then click run.  Test them in the console)
 #
 # Create a variable named my_name and set it to your name
 # Create a variable that stores your age
@@ -227,7 +228,7 @@ my_variable = "This is text saved to a variable"
 
 # To use a variable, we use the name we gave it
 # Example:
-puts my_variable # Prints the text we saved above
+# puts my_variable # Prints the text we saved above
 
 
 # Exercise:
@@ -243,6 +244,7 @@ puts my_variable # Prints the text we saved above
 #  1) Create a variable with the current year
 #  2) Create a variable with your birth year
 #  3) Subtract the two variables and store it in a new variable
+#  4) print to the console: "My age is " + calculated_age
 
 
 
@@ -253,7 +255,7 @@ puts my_variable # Prints the text we saved above
 # X) Gets: Asking the user for input
 #
 # Above we told the computer to talk to the user.  Now let's have the user talk to the computer
-gets
+# gets
 
 # the gets method adds a newline to the end of the string:
 #
@@ -266,12 +268,12 @@ gets
 # > my_input # => equal to 'hello\n'  # This will use the variable created above
 #
 # to remove the newline, we need to use 'chomp'
-gets.chomp
+# gets.chomp
 
 
 
 
-# Exercise
+# Exercise: Do this in the file and click run
 #
 # 1) use puts method to ask the user "What is your name?"
 # 2) use a variable and the gets method to save the user input
@@ -353,11 +355,11 @@ false
 my_input = "hello"
 # my_input = "goodbye"
 
-if my_input == "hello"
-  puts "Your input was hello"
-else
-  puts "Your input was not hello"
-end
+# if my_input == "hello"
+#   puts "Your input was hello"
+# else
+#   puts "Your input was not hello"
+# end
 
 
 
