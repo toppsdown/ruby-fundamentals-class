@@ -10,7 +10,7 @@ Please refer to the full curriculum for more details
   - [Weekly Guide for Teachers](https://docs.google.com/document/d/1EF5YKMogt9p0CiBYY8e5vFVBvEAxP0UWpMrtZd_M2Ho)
 
 # Repo Contents
-- [Weekly Scripts for students](weekly_scripts)
+- [Weekly Scripts for students](weekly_scripts_student_version)
 - [Guides](one_off_guides)
   - Repl.it
   - [Get faster with Hotkeys](one_off_guides/computer_hotkeys.md)
